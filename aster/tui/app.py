@@ -32,6 +32,7 @@ Screen {
 
 
 class AsterTuiApp(App):
+    TITLE = "AsterTuiApp"
     """Textual shell for the existing Aster runtime.
 
     The TUI is deliberately a presentation layer: CLI argument parsing and agent
